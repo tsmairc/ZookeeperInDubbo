@@ -10,3 +10,5 @@
 <br/>上面中，叶子节点代表不同dubbo服务器，当dubbo服务器断开时，zookeeper也会把属于当前dubbo服务器的叶子节点删除，zookeeper设计就是一个观察者模式，dubbo的消费者会监听这些叶子节点，通过获取这些叶子结点去访问提供者
 ![](https://github.com/tsmairc/ZookeeperInDubbo/blob/master/image/image4.png?raw=true)
 
+![参考信息](https://www.ibm.com/developerworks/cn/opensource/os-cn-zookeeper/)
+
